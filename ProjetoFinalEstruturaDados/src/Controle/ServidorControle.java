@@ -10,6 +10,7 @@ import Visual.Servidor;
 public class ServidorControle  implements ActionListener
 {
 
+	//objeto do tipo servidor deve receber primeira null
 	public Servidor servidor = null;
 	public ServidorControle (Servidor copia)
 	{
