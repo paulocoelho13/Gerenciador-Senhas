@@ -1,0 +1,21 @@
+package Class;
+
+public class ClientePessoa 
+{
+	public String nome = null;
+	public String atendimento = null;
+	public String preferencial = null;
+	public ClientePessoa(String nome,String atendimento, String preferencial)
+	{
+		this.nome = nome;
+		this.atendimento = atendimento;
+		this.preferencial = preferencial;
+		
+	}
+	public String toString ()
+	{
+		return nome+";"+atendimento+";"+preferencial;
+	}
+	
+
+}
