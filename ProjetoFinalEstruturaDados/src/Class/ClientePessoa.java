@@ -2,6 +2,7 @@ package Class;
 
 public class ClientePessoa 
 {
+	//teste de alteracao de codigo git
 	public String nome = null;
 	public String atendimento = null;
 	public String preferencial = null;
